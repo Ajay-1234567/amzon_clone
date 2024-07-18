@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    /* width: 200px; */
+    /* padding: 100px; */
+    /* justify-content: space-evenly; */
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo>img{
+    /* background-image: url('amazon_logo (1).png'); */
+    /* background-size: cover; */
+    height: 6vh;
+    width: 7vw;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.logo>img:hover{
+    border:1.5px solid white;
+}
+.nav-address:hover{
+    border:1.5px solid white;
+}
+
+.input:hover{
+    border:2px solid orange;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 1rem;
+}
+.add-second{
+font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-logo_border{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-address{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-search{
+    margin-left: 50px;
+    display: flex;
+    /* padding: 30px; */
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+.search-icon{
+    border: 1px solid orange;
+    background-color: orange;
+    /* border-radius: 3px; */
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* margin: 5px; */
+}
+.search-icon>i{
+    color: #0f1111;
+    background-size: cover;
+}
+.input{
+    width: 40vw;
+}
+.nav-search-all{
+    background-color: rgb(204, 199, 199);
+    padding-right: 10px;
+}
+
+.sign{
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+.sign:hover{
+    border: 2px solid white;
+}
+.account:hover{
+    border: 2px solid white;
+}
+.account{
+    display: flex;
+align-items: center;
+padding: 20px;
+margin: 2px;
+background-color: #0f1111;
+color: white;
+border: transparent;
+}
+
+.Returns{
+    align-items: center;
+    padding: 20PX;
+    margin: 5PX;
+    display: flex;
+
+}
+.Returns:hover{
+    border: 2px solid white;
+}
+
+.add-icon{
+    justify-content: center;
+    width: 5vh;
+    padding: 10px;
+    margin: 5px;
+}
+.add-icon:hover{
+    border: 2px solid white;
+}
