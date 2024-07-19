@@ -3,7 +3,6 @@
     font-family: Arial;
     border: border-box;
 }
-
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -13,6 +12,7 @@
     /* padding: 100px; */
     /* justify-content: space-evenly; */
 }
+
 
 
 .nav-logo{
@@ -207,7 +207,7 @@ ul a{
 }
 .logo{
     
-background-image: url('amazon_logo (1).png');
+background-image: url(amazon_logo (1).png);
     background-size: cover;
     height:50px;
     width:100px;
@@ -229,5 +229,3 @@ padding-top: 25px;
 .copyright{
     padding-top: 20px;
 }
-
-
